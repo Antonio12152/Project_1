@@ -221,7 +221,13 @@ header {
         margin-right: 10px;
     }
 }
+/* header style end */
+.calculator{
+    position: sticky;
+    top: 10px;
+    left: 85%;
 
+}
 /* features style start */
 
 .features-wrap {
@@ -370,9 +376,8 @@ header {
     }
 }
 
-/* features style end */
 
-/* header style end */
+/* features style end */
 
 .blog {
     display: flex;
@@ -474,7 +479,7 @@ p[class |='text'] {
 .contact {
     /* position: relative; */
     /* position: fixed; */
-    position: sticky;
+    position: relative;
     top: 10px;
     left: 85%;
     width: 50px;
